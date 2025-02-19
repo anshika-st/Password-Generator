@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(48, 2, 91);
+    position: relative;
+    font-weight: 800;
+}
+
+video{
+    z-index: 0;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    position: absolute;
+    box-shadow: 15px 15px 20px,  inset 3px 5px 15px;
+    background: linear-gradient(to bottom left , rgba(11, 102, 212, 0.432),rgba(213, 114, 215, 0.776));
+}
+
+h1{
+    margin-block: 8px;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.inputbox span{
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.passbox{
+    width: 285px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-block: 8px;
+    font-size: 18px;
+}
+
+.row{
+    display: flex;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-block: 6px;
+    letter-spacing: -1px;
+}
+
+.row p, label{
+    flex-basis: 100%;
+    width: 100%;
+}
+
+.row input{
+    width: 20px;
+    height: 20px;
+}
+
+button{
+    background-color: rgba(24, 11, 146, 0.712);
+    color: #fff;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 800;
+    margin-block: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:  rgba(10, 2, 84, 0.849);
+}
